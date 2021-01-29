@@ -45,5 +45,5 @@ jobs:
         incremental: false
         break_build: false
         scanners: sast
-        bug_tracker: GITHUBPULL
+        #bug_tracker: GITHUBPULL
         params: --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.head_ref }} --merge-id=${{ github.event.number }}
