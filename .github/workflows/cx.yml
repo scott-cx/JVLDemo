@@ -42,9 +42,8 @@ jobs:
         sca_tenant: ${{ secrets.SCA_TENANT }}
         sca_username: ${{ secrets.SCA_USERNAME }}
         sca_password: ${{ secrets.SCA_PASSWORD }}  
-        multi-tenant: false 
         incremental: false
         break_build: false
-        scanners: sca
-        #bug_tracker: GITHUBPULL
+        scanners: sca, sast
+        bug_tracker: GITHUBPULL
         params: --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.head_ref }} --merge-id=${{ github.event.number }}
