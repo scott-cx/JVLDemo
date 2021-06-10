@@ -1,0 +1,11 @@
+{
+    "cx.server": {
+        "url": "http://cxserver93ga/",
+        "alias": "CxSAST93ga",
+        "username": "admin@cx",
+        "password": "UFUdZ5aLNwjNMY92YOQn3wkRWC3kO8umAT/xuK8=",
+        "project_id": 39,
+        "team_id": 4,
+        "project_name": "JVLDemo-PR"
+    }
+}
